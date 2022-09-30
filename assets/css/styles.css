@@ -1,6 +1,32 @@
 *{
     padding-left: 0%;
 }
+/* Banner and about */
+.picperfil {
+    margin-top: -20%;
+    margin-left: -50%;
+    width: 60%;
+    position: relative;
+}
+
+.info {
+    font-size: 90%;
+    margin-left: -55%;
+    padding-top: 2%;
+    text-align: center;
+    color:#ffffff;
+}
+
+.ed-about {
+    color: #ffffff !important;
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 90%;
+}
+
+img.w-100 {
+    margin-top: -6% !important;
+}
 
 /* Cabecera */
 

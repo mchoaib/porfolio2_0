@@ -25,14 +25,9 @@
     font-size: 90%;
 }
 
-img.w-100 {
-    margin-top: -6% !important;
-}
-
 /* Cabecera */
 
 .navbar.navbar-expand-lg.bg-dark {
-    background: #8893e6;
     background: linear-gradient(0deg, #8893e6 2%, #0d37f9 47%, #8893e6 97%); 
  }
  

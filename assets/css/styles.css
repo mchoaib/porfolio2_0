@@ -27,9 +27,13 @@
 
 /* Cabecera */
 
-.navbar.navbar-expand-lg.bg-dark {
-    background: linear-gradient(0deg, #8893e6 2%, #0d37f9 47%, #8893e6 97%); 
+.navbar {
+    background-color: greenyellow;
  }
+
+#carouselExampleSlidesOnly {
+    margin-top: 5%;
+} 
  
  .navbar_redes{
      list-style: none;

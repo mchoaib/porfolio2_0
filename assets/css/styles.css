@@ -1,8 +1,97 @@
 *{
     padding-left: 0%;
-    background-color: #000000;
 }
-/* Banner and about */
+
+body {
+    background: black;
+}
+
+/* 01- CABECERA */
+
+/* Barra de Navegación */
+
+.navbar-dark {
+    background: linear-gradient(0deg, #8893e6 2%, #0d37f9 47%, #8893e6 97%); 
+}
+
+.navbar_redes{
+    list-style: none;
+}
+
+.logueo {
+    text-decoration: none;
+}
+a.fa-brands {
+    color: #ffffff;
+    text-decoration: none !important; 
+}
+
+a.fa-solid {
+    color: #ffffff;
+    text-decoration: none !important; 
+}
+
+i.fa-solid {
+    color: #ffffff;
+    text-decoration: none !important; 
+}
+
+i.fa-brands {
+    color: #ffffff;
+    text-decoration: none !important; 
+}
+
+a.fa-brands:hover {
+   color: #d0ff00;
+}
+
+i.fa-brands:hover {
+    color: #d0ff00;
+}
+
+a.fa-solid.fa-envelope:hover {
+    color: #ff0000;
+ }
+i.fa-solid.fa-envelope:hover {
+    color: #ff0000;
+}
+
+i.fa-solid.fa-user-lock:hover {
+    color: #008000;
+}
+
+a.fa-solid.fa-user:hover {
+    color: #008000;
+}
+.list-group-item.redes{
+    --bs-list-group-border-width : 0%;
+    background: none;
+
+}
+
+.list-group-item.fa-brand {
+    background: none;
+    color: #ffffff;
+}
+
+.list-group.sidebar {
+    margin-top: 7rem;
+}
+
+/* Logueo */
+
+.modal-backdrop {
+    z-index:auto;
+}
+
+/* Banner */
+
+#carouselExampleSlidesOnly {
+    margin-top: 6%;
+} 
+
+/* Acerca de */
+
 .picperfil {
     margin-top: -20%;
     margin-left: -50%;
@@ -16,6 +105,7 @@
     padding-top: 2%;
     text-align: center;
     color:#ffffff;
+    padding-bottom: 10%;
 }
 
 .ed-about {
@@ -27,79 +117,8 @@
 
 /* Cabecera */
 
-.navbar {
-    background-color: greenyellow;
- }
 
-#carouselExampleSlidesOnly {
-    margin-top: 5%;
-} 
+
+
  
- .navbar_redes{
-     list-style: none;
- }
  
- .logueo {
-     text-decoration: none;
- }
- a.fa-brands {
-     color: #ffffff;
-     text-decoration: none !important; 
- }
- 
- a.fa-solid {
-     color: #ffffff;
-     text-decoration: none !important; 
- }
- 
- i.fa-solid {
-     color: #ffffff;
-     text-decoration: none !important; 
- }
- 
- i.fa-brands {
-     color: #ffffff;
-     text-decoration: none !important; 
- }
- 
- a.fa-brands:hover {
-    color: #d0ff00;
- }
- 
- i.fa-brands:hover {
-     color: #d0ff00;
- }
- 
- a.fa-solid.fa-envelope:hover {
-     color: #ff0000;
-  }
- i.fa-solid.fa-envelope:hover {
-     color: #ff0000;
- }
- 
- i.fa-solid.fa-user-lock:hover {
-     color: #008000;
- }
- 
- a.fa-solid.fa-user:hover {
-     color: #008000;
- }
- .list-group-item.redes{
-     --bs-list-group-border-width : 0%;
-     background: none;
- 
- }
- 
- .list-group-item.fa-brand {
-     background: none;
-     color: #ffffff;
- }
- 
- .list-group.sidebar {
-     margin-top: 7rem;
- 
- }
- 
- .modal-backdrop {
-     z-index:auto;
- }

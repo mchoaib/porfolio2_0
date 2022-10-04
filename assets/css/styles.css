@@ -6,7 +6,7 @@ body {
     background: black;
 }
 
-/* 01- CABECERA */
+/* 00- CABECERA */
 
 /* Barra de Navegación */
 
@@ -84,13 +84,12 @@ a.fa-solid.fa-user:hover {
     z-index:auto;
 }
 
-/* Banner */
+/* 01 Perfil y Acerca de */
 
 #carouselExampleSlidesOnly {
     margin-top: 6%;
 } 
 
-/* Acerca de */
 
 .picperfil {
     margin-top: -20%;
@@ -115,7 +114,7 @@ a.fa-solid.fa-user:hover {
     font-size: 90%;
 }
 
-/* Estudios */
+/* 02- Estudios */
 
 .est1, .est2, .est3 {
     display: block;
@@ -126,7 +125,7 @@ a.fa-solid.fa-user:hover {
     text-align: center;
 }
  
-/* Trabajo */ 
+/* 03- Trabajo */ 
 
 .card-body {
     text-align: center;

@@ -128,4 +128,6 @@ a.fa-solid.fa-user:hover {
  
 /* Trabajo */ 
 
-
+.card-body {
+    text-align: center;
+}

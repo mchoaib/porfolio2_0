@@ -115,10 +115,15 @@ a.fa-solid.fa-user:hover {
     font-size: 90%;
 }
 
-/* Cabecera */
+/* Estudios */
 
+.est1, .est2, .est3 {
+    display: block;
+    margin: auto;
+}
 
-
-
+.titulo {
+    text-align: center;
+}
  
- 
+/* Trabajo */ 

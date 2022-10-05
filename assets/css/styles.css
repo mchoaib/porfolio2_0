@@ -130,3 +130,100 @@ a.fa-solid.fa-user:hover {
 .card-body {
     text-align: center;
 }
+
+/* 04- Habilidades duras y blandas */
+
+.donut{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+/* (B) DONUT "CONVERSION" */
+  /* (B1) SMALLER CIRCLE */
+  .hole {
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    background: #0b335d;
+  }
+
+  .porcentaje {
+    color: #ffffff;
+    margin-top: 30%;
+    margin-left: 27%;
+  }
+   
+  /* (B2) "CONVERT PIE TO DONUT" - CENTER SMALLER CIRCLE */
+  .donut50 {
+    /* (A1) CIRCLE */
+    width: 100px; height: 100px;
+    border-radius: 50%;
+ 
+  /* (A2) SEGMENTS */
+    background: conic-gradient(
+   green 0deg 180deg,   
+   red 180deg 360deg
+  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .donut67 {
+    /* (A1) CIRCLE */
+    width: 100px; height: 100px;
+    border-radius: 50%;
+ 
+  /* (A2) SEGMENTS */
+    background: conic-gradient(
+    green 0deg 215deg,
+    red 215deg 360deg
+
+  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .donut75 {
+    /* (A1) CIRCLE */
+    width: 100px; height: 100px;
+    border-radius: 50%;
+ 
+  /* (A2) SEGMENTS */
+    background: conic-gradient(
+    green 0deg 270deg,
+    red 270deg 360deg
+  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .donut100 {
+    /* (A1) CIRCLE */
+    width: 100px; height: 100px;
+    border-radius: 50%;
+ 
+  /* (A2) SEGMENTS */
+    background: conic-gradient(
+    green 0deg 360deg
+  );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* (C) LEGEND */
+.legend {
+    color: #ffffff;
+    margin-left: 25%;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+.titulo_habilidades {
+    color: #ffffff;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    font-size: 200%;
+    text-align: left;
+}  

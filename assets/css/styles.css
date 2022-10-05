@@ -125,7 +125,7 @@ a.fa-solid.fa-user:hover {
     text-align: center;
 }
  
-/* 03- Trabajo */ 
+/* 03- Experiencia */ 
 
 .card-body {
     text-align: center;
@@ -143,11 +143,11 @@ a.fa-solid.fa-user:hover {
   .hole {
     width: 60px; height: 60px;
     border-radius: 50%;
-    background: #0b335d;
+    background: #ffffff;
   }
 
   .porcentaje {
-    color: #ffffff;
+    color: #000000;
     margin-top: 30%;
     margin-left: 27%;
   }
@@ -227,3 +227,112 @@ a.fa-solid.fa-user:hover {
     font-size: 200%;
     text-align: left;
 }  
+
+/* 05- Trabajos anteriores */
+
+.texto_laburo.txtlab3 {
+    margin-top: 5rem;
+    color: #ffffff;
+    font-size: 100%;
+    text-align : left;
+}
+
+.icono_laburo3 {
+    margin-top: 7.5rem;
+    margin-left: 13rem;
+}
+
+.editor.xmark.exp3 {
+    margin-left: 80.5%;
+    margin-top: 5.5%;
+}
+.editor.pen.exp3 {
+    margin-left: 78.5%;
+    margin-top: 5.5%;
+}
+
+.texto_laburo.txtlab2 {
+    margin-top: 5rem;
+    color: #ffffff;
+    font-size: 100%;
+    text-align : left;
+}
+
+.icono_laburo2 {
+    margin-top: 9rem;
+    margin-left: 13rem;
+}
+
+.editor.xmark.exp2 {
+    margin-left: 80.5%;
+    margin-top: 5.5%;
+}
+.editor.pen.exp2 {
+    margin-left: 78.5%;
+    margin-top: 5.5%;
+}
+.texto_laburo.txtlab1 {
+    margin-top: 5rem;
+    color: #ffffff;
+    font-size: 100%;
+    text-align : left;
+}
+
+.icono_laburo1 {
+    margin-top: 7.5rem;
+    margin-left: 13rem;
+}
+
+.editor.xmark.exp1 {
+    margin-left: 80.5%;
+    margin-top: 5.5%;
+}
+.editor.pen.exp1 {
+    margin-left: 78.5%;
+    margin-top: 5.5%;
+}
+.Titulo_experiencia {
+    color: #ffffff;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-size: 200%;
+    text-align: left;
+}
+
+.editor.xmark.acerca {
+    margin-left: 28.5%;
+    margin-top: -11%;
+    position:absolute;
+    color: aquamarine !important;
+}
+.editor.pen.acerca {
+    margin-left: 26.5%;
+    margin-top: -11%;
+    position:absolute;
+    color: aquamarine !important;
+}
+.editor.pen.nombrecargo {
+    margin-left: 0.5%;
+    margin-top: -4%;
+}
+
+.editor.pen.fotoperfil {
+    margin-left: -6.5%;
+    margin-top: -1%;
+}
+
+a.editor.pen.banner {
+    margin-left: -2%;
+    margin-top: 29%;
+}
+
+.editor {
+    position:absolute;
+    color: aquamarine !important;
+}
+
+
+/* 06- Pie de página */
+.Pie {
+    font-family: 'Roboto', sans-serif;
+}
